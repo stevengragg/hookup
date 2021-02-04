@@ -1,3 +1,8 @@
+# HOOK UP
+A tinder-clone react application(this is my first react app Haha :) )
+Hope you like it all. Message me if you want me to create a React App for you
+
+==================================================================
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
