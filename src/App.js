@@ -1,6 +1,7 @@
 
 import './App.css';
 import Header from './Header';
+import ProfileCards from './ProfileCards';
 
 function App() {
   // BEM class naming convention
@@ -9,6 +10,7 @@ function App() {
      {/* Header */}
      <Header />
      {/* Profile Cards */}
+     <ProfileCards />
      {/* Buttons/Options */}
     </div>
   );
