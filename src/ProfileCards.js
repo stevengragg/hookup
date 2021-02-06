@@ -1,6 +1,8 @@
-import { SwipeableDrawer } from '@material-ui/core'
+
 import {React, useState} from 'react'
+// npm package
 import TinderCard from 'react-tinder-card'
+// design
 import './ProfileCards.css'
 
 function ProfileCards() {
