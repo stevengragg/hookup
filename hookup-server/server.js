@@ -18,7 +18,7 @@ const connection_url = `mongodb+srv://${username}:${password}@hookupcloud.9uxyj.
  * middlewares
  */
 
-app.use(express.json);
+app.use(express.json());
 app.use(Cors()); // Put header in every requests
 
 /**
@@ -38,19 +38,20 @@ mongoose.connect(connection_url, {
 
 
 app.get('/', (req, res) => {
-    // base url end point\
+    // base url end point
     return res.status(200).send('Eyo!')
 });
 
-app.post('/tinder/card', (req, res) => {
+app.post('/hookup/card', (req, res) => {
     const dbCard = req.body;
+    console.log(req)
     Cards.create(dbCard, (err, data) => {
         if(err) res.status(500).send(err);
         else res.status(201).send(data)
     })
 })
 
-app.get('/tinder/cards', (req, res) => {
+app.get('/hookup/cards', (req, res) => {
     Cards.find((err, data) => {
         if(err) res.status(500).send(err);
         else res.status(200).send(data)
