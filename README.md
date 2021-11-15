@@ -3,7 +3,7 @@ A tinder-clone MERN application(this is my first MERN app Haha :) )
 Hope you like it all. Message me if you want me to create a React App for you
 
 
-Project Hosted here: https://hookup-8aa3d.web.app
+Project Hosted here: https://hookup-1bedd.web.app
 ==================================================================
 # Getting Started with Create React App
 
