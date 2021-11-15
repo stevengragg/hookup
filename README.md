@@ -1,5 +1,5 @@
 # HOOK UP
-A tinder-clone react application(this is my first react app Haha :) )
+A tinder-clone MERN application(this is my first MERN app Haha :) )
 Hope you like it all. Message me if you want me to create a React App for you
 
 ==================================================================
